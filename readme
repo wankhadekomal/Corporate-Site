@@ -1,0 +1,45 @@
+
+footer .footer_container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+footer .footer_container .footer_content{
+    margin-right: 30px;
+    
+}
+footer .footer_container .footer_content.logo{
+    width:250px;
+}
+.scocial{
+    margin-top: 20px;
+    display: flex;
+}
+.scocial li{
+    list-style-type: none;
+}
+
+.scocial li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: rgba(0, 0, 0, 1);
+
+}
+.cause{
+    position: relative;
+    width: 75%;
+    }
+.cause ul li{
+    color:grey;
+    text-decoration: none;
+    margin-bottom: 10px;
+    list-style-type: none;
+    
+    
+}
